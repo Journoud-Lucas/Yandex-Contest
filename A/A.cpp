@@ -11,7 +11,7 @@ Problems: Стажировка осень-зима 2024 | бэкенд | A. Кр
 std::string FindMinimalWord(int R, int C, std::vector<std::vector<char>>);
 void CheckWordIsLexicogrtaphicallySmaller(std::string &MinimalWord, std::string wordToCompare);
 
-int main()
+int main(void)
 {
 	int R=0, C=0;
 	std::cin >> R >> C;
