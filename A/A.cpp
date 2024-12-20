@@ -10,8 +10,9 @@ Problems: Стажировка осень-зима 2024 | бэкенд | A. Кр
 
 std::string FindMinimalWord(int R, int C, std::vector<std::vector<char>>);
 void CheckWordIsLexicogrtaphicallySmaller(std::string &MinimalWord, std::string wordToCompare);
+void TestExample();
 
-int main(void)
+int main()
 {
 	int R=0, C=0;
 	std::cin >> R >> C;
@@ -82,7 +83,7 @@ void CheckWordIsLexicogrtaphicallySmaller(std::string &minimalWord, std::string 
 	}
 }
 
-void TestExample(void)
+void TestExample()
 {
 	std::vector<std::vector<char>> grid1 = {
 	{'y', 'a', 'n'},
